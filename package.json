@@ -1,8 +1,11 @@
 {
   "name": "vite-react-typescript-tailwind-starter",
+  "homepage": "https://anhquan2682001.github.io/WebApp",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "serve": "vite preview --port 3000",
     "lint": "eslint . --ext .ts,.tsx,.js",
@@ -24,7 +27,8 @@
     "@heroicons/react": "^2.0.15",
     "@tailwindcss/forms": "^0.5.3",
     "@types/node": "18.13.0",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "@vitejs/plugin-react": "^3.1.0",
