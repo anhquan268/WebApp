@@ -12,8 +12,8 @@ function Login() {
         {/* Logo và Menu */}
         <div className="flex items-center space-x-6">
           <img src="/src/components/images/logo.png" alt="SkyProperties" className="h-8" />
-          <a href="#" className="hover:underline text-white">Screenshots</a>
-          <a href="#" className="hover:underline text-white">Property Listings</a>
+          <a href="/" className="hover:underline text-white">Screenshots</a>
+          <a href="/about" className="hover:underline text-white">Property Listings</a>
         </div>
         {/* Login */}
         <div className="text-white">
@@ -65,7 +65,6 @@ function Login() {
           <div className="flex justify-end">
           <label className="w-1/6 text-gray-700 font-medium text-right mr-4"></label>
             <button className="w-5/6 flex items-center justify-center gap-2 bg-green-500 text-white py-3 rounded-full hover:bg-green-600">
-              <FaSignInAlt />
               SIGN IN
             </button>
           </div>
